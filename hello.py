@@ -5,5 +5,5 @@ def toy():
     var_a = 23
     var_b = 42
     # some comment
-    var_c = var_a + var_b + var_x  # pylint: disable=undefined-variable
+    var_c = var_a + var_b + var_x + var_y  # pylint: disable=undefined-variable
     return var_c
